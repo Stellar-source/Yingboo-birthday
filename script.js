@@ -1,6 +1,6 @@
 function openGift(b){b.parentElement.classList.toggle("open")}
 function surprise(){let o=document.getElementById("surprise");if(!o)return;o.classList.add("show");setTimeout(()=>{let l=document.getElementById("loading"),u=document.getElementById("unlock");if(l)l.style.display="none";if(u)u.style.display="block"},2600)}
-function openLightbox(img){let box=document.getElementById("lightbox"),big=document.getElementById("lightboxImg"),cap=document.getElementById("lightboxCaption");if(!box||!big)return;big.src=img.currentSrc||img.src;cap.textContent=img.closest("figure")?.querySelector("figcaption")?.textContent||"";box.classList.add("show")}
+function openLightbox(img){let box=document.getElementById("lightbox"),big=document.getElementById("lightboxImg"),cap=document.getElementById("lightboxCaption");if(!box||!big)return;big.src = img.src;cap.textContent=img.closest("figure")?.querySelector("figcaption")?.textContent||"";box.classList.add("show")}
 function closeLightbox(e){if(e&&e.target&&e.target.id!=="lightbox"&&e.target.tagName!=="BUTTON")return;document.getElementById("lightbox")?.classList.remove("show")}
 function setupMusic(){
   if(document.querySelector('.music-player')) return;
