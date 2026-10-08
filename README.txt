@@ -1,24 +1,25 @@
-YINGBOO BIRTHDAY WEBSITE
-=========================
+YINGBOO BIRTHDAY WEBSITE — UPDATED PHOTO EDITION
 
-1. Open index.html to preview the website on your computer.
-2. Put your photos in assets/photos/.
-3. To use a photo, replace a placeholder <div> in memories.html with:
-   <img class="photo" src="assets/photos/your-photo.jpg" alt="Memory">
-4. Edit the text in the HTML files whenever you want.
-5. To publish for free with GitHub Pages:
-   - Create/login to GitHub.
-   - Create a NEW repository.
-   - Name it something like yingboo-birthday.
-   - Upload every file and the assets folder.
-   - Go to Settings > Pages.
-   - Under Build and deployment choose "Deploy from a branch".
-   - Choose branch "main" and folder "/ (root)".
-   - Save.
-   - GitHub will give you a website link after it publishes.
+1. Upload the INDIVIDUAL website files to your GitHub repository (not the ZIP itself).
+2. Keep the folder structure exactly as shown.
+3. The new photos are already inside assets/photos/ in this package.
+4. The Memories page now has separate sections:
+   - The Beginning
+   - Us
+   - Our Chaos
+   - Ying Being Ying
+   - Favorite Memories
+5. Clicking a memory photo opens it full-screen.
+6. The hamster card beside the banana is a reserved slot for the exact hamster-on-call meme. Replace that card later if you want to add the meme image.
+7. The current final reveal photo is assets/photos/final.jpg. Replace that file with your chosen final photo (keep the filename final.jpg) to change the surprise.
+8. Commit the updated files to GitHub.
+9. GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root) > Save.
 
-IMPORTANT:
-- Keep index.html in the root of the repository.
-- File names are case-sensitive.
-- If you add music, put it in assets/music/ and reference it from HTML.
-- You can add more pages by copying an existing HTML page and changing its content.
+No music is included. If you add music, use audio you have permission to use.
+
+NEW DESIGN + SONG
+- Theme updated to teal + baby blue with cherry/strawberry accents and a lily bouquet decoration.
+- To add the song, put your own legally obtained copy of "Did I Tell You That I Miss You" in assets/music/ and name it exactly:
+  did-i-tell-you-that-i-miss-you.mp3
+- The site has a Play button for the song on every page. Browsers normally block autoplay, so she taps Play herself.
+- I cannot provide the copyrighted song file itself; upload your own copy if you want it bundled into the site.

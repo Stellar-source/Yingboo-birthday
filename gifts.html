@@ -1,16 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gifts • Yingboo</title><link rel="stylesheet" href="style.css">
-</head>
-<body><div class="stars"></div><header class="topbar"><a href="menu.html" class="back">← MENU</a><div class="top-title">GIFTS</div></header>
-<main class="container">
-<section class="hero-card"><div class="eyebrow">REWARD CHEST</div><h1>Open them slowly. 😭</h1><p>These are little gifts because I can't exactly hand you a box through a screen.</p></section>
-<div class="gift-grid">
-<article class="gift"><button class="gift-box" onclick="openGift(this)">🎁</button><h2>Gift #1</h2><div class="reveal">Your first gift is simple: <b>you are loved.</b> ❤️</div></article>
-<article class="gift"><button class="gift-box" onclick="openGift(this)">🎁</button><h2>Gift #2</h2><div class="reveal">Replace this with a private joke, photo, song, or tiny message.</div></article>
-<article class="gift"><button class="gift-box" onclick="openGift(this)">🎁</button><h2>Gift #3</h2><div class="reveal">Replace this with something she wouldn't expect.</div></article>
-<article class="gift"><button class="gift-box" onclick="openGift(this)">🎁</button><h2>Final Gift</h2><div class="reveal">The final gift is the <a href="final.html">Final Quest →</a></div></article>
-</div></main>
-<script src="script.js"></script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gifts</title><link rel="stylesheet" href="style.css"></head><body><header><a href="menu.html">← MENU</a><b>GIFTS</b></header><main class="container"><div class="hero"><small>REWARD CHEST</small><h1>Open them slowly. 😭</h1><p>Little gifts because I can't hand you a box through a screen.</p></div><div class="giftgrid"><div class="gift"><button onclick="openGift(this)">🎁</button><h2>Gift #1</h2><p>A reminder: you are loved, appreciated, and worth celebrating. ❤️</p></div><div class="gift"><button onclick="openGift(this)">🎁</button><h2>Gift #2</h2><p>Your favorite memories deserve their own corner. Check <a href="memories.html">Memories →</a></p></div><div class="gift"><button onclick="openGift(this)">🎁</button><h2>Gift #3</h2><p>Achievement unlocked: being my favorite person to annoy. 🏆</p></div><div class="gift"><button onclick="openGift(this)">🎁</button><h2>FINAL GIFT</h2><p>Tap to reveal the secret.</p><button class="btn" onclick="surprise()">UNLOCK →</button></div></div></main><div id="surprise" class="overlay"><div id="loading">LOADING SECRET REWARD...<div class="bar"><i></i></div><small>PLEASE WAIT, BIRTHDAY GIRL</small></div><div id="unlock"><small>REWARD UNLOCKED</small><h1>YINGBOO</h1><h2>HAPPY BIRTHDAY ❤️</h2><img src="assets/photos/final.jpg" onerror="this.style.display='none'"><p>I couldn't send you a physical gift, so I made you a little place you can keep. Every part of it was made because I love you. The photo here is the current reveal pick — you can swap it for your absolute favorite later.</p><a class="btn" href="final.html">READ YOUR FINAL MESSAGE →</a></div></div><script src="script.js"></script></body></html>

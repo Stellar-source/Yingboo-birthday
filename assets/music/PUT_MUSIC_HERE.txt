@@ -1,1 +1,6 @@
-Put an audio file here if you want to add background music later.
+Music is included in this version.
+
+File: did-i-tell-you-that-i-miss-you.mp3
+Song: Did I Tell You That I Miss You — Adore
+
+The website music player points to this file.
