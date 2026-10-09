@@ -23,3 +23,10 @@ NEW DESIGN + SONG
   did-i-tell-you-that-i-miss-you.mp3
 - The site has a Play button for the song on every page. Browsers normally block autoplay, so she taps Play herself.
 - I cannot provide the copyrighted song file itself; upload your own copy if you want it bundled into the site.
+
+
+MUSIC CONTINUITY UPDATE
+- Press START EVENT on the homepage to begin the song.
+- Internal .html page links now swap page content without reloading the whole browser document, so the same audio player continues between sections.
+- The floating OUR SONG control remains available; tap it to pause/resume.
+- For GitHub Pages, keep the repository files in the root as currently arranged.
